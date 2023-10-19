@@ -5,7 +5,10 @@ def even_list(int_list:List[int]) ->List[int]:
     pass
 
 def sum_of_squares_of_even(even_int_list:List[int])->int:
-    pass
+    sum =0
+    for a in even_int_list:
+        sum+=a*a
+    return sum
 
 
 def main():
