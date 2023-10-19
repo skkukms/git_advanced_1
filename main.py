@@ -2,7 +2,11 @@ from typing import List
 
 #skeleton ccode for even_list
 def even_list(int_list:List[int]) ->List[int]:
-    pass
+    res =[]
+    for a in int_list:
+        if a%2 ==0:
+            res.append(a)
+    return res
 
 def sum_of_squares_of_even(even_int_list:List[int])->int:
     pass
